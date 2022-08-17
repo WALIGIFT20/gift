@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+}
+img {
+  width: 100%;
+}
+/* Nav bar */
+.nav {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  justify-content: center;
+  box-shadow: 1px 1px 3px 1px rgb(232, 229, 229);
+}
+
+.logo {
+  width: 50px;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 45px;
+}
+
+.meal {
+  padding-left: 2px;
+  padding-top: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.menu {
+  padding: 17px 5px;
+}
+.menu a {
+  color: grey;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-left: 40px;
+}
+.sign-in {
+  padding: 17px 5px;
+}
+.sign-in a {
+  color: grey;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.icons {
+  padding: 15px 5px;
+  text-align: center;
+  justify-content: space-between;
+}
+.icons i {
+  padding: 0px 10px;
+  color: grey;
+  font-size: 19px;
+}
+.boz {
+  text-align: center;
+}
+.account {
+  background-color: rgb(218, 10, 10);
+  width: 60%;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  padding: 18px 5px;
+  border-radius: 25px;
+  border: none;
+}
+
+/* first section */
+
+.delicious {
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-top: 13rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+.deliver {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  padding: 2px 15px;
+  font-size: 18px;
+  color: grey;
+  font-family: sans-serif;
+}
+.button {
+  width: 70%;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(218, 10, 10);
+  padding: 2rem 12rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.img-carrier {
+  text-align: center;
+  background-color: #fff;
+  width: 520px;
+  height: 520px;
+  border-radius: 100%;
+  border: 2px solid rgb(218, 10, 10);
+  margin-top: 30px;
+}
+.img-carrier img {
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  margin-top: 32px;
+  box-shadow: 12px 12px 25px 10px rgb(209, 206, 206);
+}
+
+/*** second section***/
+.item-display {
+  background-color: rgb(241, 241, 247);
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.title {
+  color: rgb(230, 33, 33);
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 2.5rem;
+}
+.sec-title {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+}
+.sec-title h1 {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.box {
+  border: 1px solid rgb(213, 207, 207);
+  float: right;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+.box a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(31, 29, 29);
+  font-weight: bolder;
+  font-size: 12px;
+}
+.box .red {
+  background-color: rgb(218, 10, 10);
+  padding: 7px 8px;
+  border-radius: 5px;
+  color: #fff;
+}
+.split {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.photo {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 12px 12px 25px 10px rgb(235, 231, 231);
+}
+.details {
+  width: 320px;
+  margin-left: 25px;
+}
+.head {
+  font-size: 20px;
+  font-weight: 20px;
+  margin-top: 20px;
+  color: rgb(71, 71, 71);
+}
+.details p {
+  margin-top: 8px;
+  font-size: 12.5px;
+  font-weight: bold;
+  color: rgb(143, 139, 139);
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.amount {
+  margin-top: 30px;
+  font-size: 21px;
+  font-weight: lighter;
+  color: rgb(71, 71, 71);
+}
+
+/** full menu**/
+
+.carrier {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.full-menu {
+  min-height: 50px;
+  width: 33.33333333333333%;
+  text-align: center;
+}
+.full-menu a {
+  text-decoration: none;
+  background-color: rgb(218, 10, 10);
+  padding: 18px 30px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+/** Third Section **/
+.customer {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(238, 207, 212);
+}
+.first-con {
+  margin-top: 15rem;
+}
+
+.about {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-top: 13rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+.note {
+  margin-top: 2rem;
+  font-size: 16px;
+  color: rgb(143, 139, 139);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.second-con {
+  width: 100%;
+  min-height: 75%;
+  margin-top: 10rem;
+  background-color: #fff;
+  border-radius: 13px;
+  /* display: flex; */
+}
+.quote {
+  font-size: 7rem;
+  float: right;
+  margin-right: 20px;
+  color: rgb(218, 10, 10);
+}
+.carry {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+.pro-pic {
+  width: 125px;
+  height: 125px;
+  background-color: red;
+  border-radius: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+.pro-pic img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+}
+
+.john {
+  color: rgb(58, 55, 55);
+  margin-top: 15px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1500;
+}
+.enugu {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(141, 130, 130);
+}
+.info {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-top: 4rem;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(143, 139, 139);
+}
+
+/** Fourth Section **/
+.blog {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.margin {
+  padding: 70px 70px;
+}
+.blog h1 {
+  font-size: 45px;
+  text-align: center;
+}
+.para {
+  font-size: 15px;
+  color: rgb(179, 172, 172);
+  margin-top: 2rem;
+  text-align: center;
+}
+.blog-pic {
+  margin-top: 2rem;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgb(104, 101, 101);
+  font-weight: bolder;
+}
+
+.blog-carrier {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 5rem;
+}
+.blog-con {
+  width: 350px;
+  border: 1px solid rgb(233, 227, 227);
+  border-radius: 10px;
+}
+.blog-connn {
+  width: 360px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 3px rgb(221, 216, 216);
+}
+.blog-pic {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  border-radius: 100%;
+  margin-left: 7rem;
+  text-align: center;
+}
+.blog-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.made {
+  margin-top: 2rem;
+  display: flex;
+  font-size: 12px;
+  color: rgb(143, 139, 139);
+  font-weight: bolder;
+}
+.red {
+  color: rgb(218, 10, 10);
+}
+.space {
+  margin-left: 10px;
+}
+.h3 {
+  margin-top: 3rem;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(49, 46, 46);
+}
+.spicy {
+  font-size: 13px;
+  margin-top: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(143, 139, 139);
+}
+.atag {
+  margin-top: 4rem;
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(218, 10, 10);
+  font-weight: bolder;
+}
+
+/** footer **/
+.foot {
+  margin-top: 10rem;
+  display: flex;
+}
+.f-logo {
+  width: 80px;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 45px;
+  border-radius: 50px;
+}
+
+.f-meal {
+  padding-left: 2px;
+  margin-top: 30px;
+
+  font-size: 30px;
+  font-weight: bolder;
+}
+.company {
+  margin-top: 4rem;
+  font-size: 16px;
+}
+.service {
+  margin-top: 2rem;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(165, 163, 163);
+}
+.line {
+  color: grey;
+  margin-top: 3rem;
+}
+.copy {
+  margin-top: 2rem;
+  color: rgb(112, 108, 108);
+  font-size: 12px;
+}
+.font {
+  margin-top: 1rem;
+  display: flex;
+  float: right;
+  font-size: 15px;
+  width: 200px;
+}
+.round {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: rgb(225, 217, 217);
+  margin-left: 25px;
+}
+.round i {
+  font-size: 13px;
+  color: rgb(94, 81, 81);
+  text-align: center;
+  margin-top: 11px;
+  margin-left: 10px;
+}
+
+/*=========  columns  ====*/
+
+.d3-right {
+  float: right;
+}
+
+.d3-left {
+  float: left;
+}
+.d3-min-col {
+  min-width: 20px;
+  min-height: 1px;
+}
+
+.col-d3-1 {
+  min-height: 1px;
+  width: 8.333333333333333%;
+}
+
+.col-d3-2 {
+  min-height: 1px;
+  width: 16.66666666666667%;
+}
+
+.col-d3-3 {
+  min-height: 1px;
+  width: 25%;
+}
+
+.col-d3-4 {
+  min-height: 1px;
+  width: 33.33333333333333%;
+}
+
+.col-d3-6 {
+  min-height: 1px;
+  width: 50%;
+}
+
+.col-d3-8 {
+  min-height: 1px;
+  width: 66.66666666666667%;
+}
+
+.col-d3-10 {
+  min-height: 1px;
+  width: 83.33333333333333%;
+}
+
+.col-d3-12 {
+  min-height: 1px;
+  width: 100%;
+}
+
+.d3-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.d3-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d3-card {
+  padding: 1px 15px 10px 15px;
+  /* background-color: #d6d0d6; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
